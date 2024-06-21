@@ -1,0 +1,303 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+/* body of resume  */
+body {
+    background-color: lightblue;
+    text-align: justify;
+}
+
+/* whole container  */
+.container {
+    position: relative;
+    width: 90%;
+    max-width: 1200px;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+}
+
+/* left side  */
+.left-side {
+    background-color: rgb(60, 52, 108);
+    padding: 20px;
+}
+
+/* right side  */
+.right-side {
+    background-color: rgb(243, 238, 238);
+    padding: 20px;
+}  
+
+/* profile picture  */
+.profile-pic {
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    background-image: url("mypic.jpg.jpg");
+    background-size: cover;
+    border-radius: 100px;
+    margin: 20px auto;
+}
+
+/* name */
+.name {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* field  */
+.field, .field-name {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+}
+
+/* field name */
+.field-name {
+    border-bottom: 2px solid white;
+    margin-top: 7px;
+}
+
+/* contact info  */
+.contact-info {
+    text-decoration: underline;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    text-transform: capitalize;
+    text-align: left;
+} 
+.contact-info span {
+    display: block;
+    margin-top: 10px;
+}
+
+.contact-info i {
+    color: blue;
+    margin-right: 10px;
+}
+
+.email-text, .call-text {
+    font-size: 15px;
+    font-weight: 500;
+    display: inline-block;
+    text-transform: lowercase;
+}
+.linkdin-text {
+    font-size: 15px;
+    font-weight: 500;
+    display: inline-block;
+    text-transform: uppercase;
+}
+.location-text {
+    font-size: 15px;
+    font-weight: 500;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+/* education information */
+.education-heading {
+    text-decoration: underline;
+    margin-top: 30px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* education details */
+.matric, .fsc, .bs {
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    line-height: 1.2;
+    margin-top: 10px;
+}
+
+.matric-year, .fsc-year, .bs-year {
+    color: blue;
+    display: block;
+    margin-top: 5px;
+}
+
+/* languages information  */
+.language-heading {
+    text-decoration: underline;
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 800;
+    color: white;
+    text-transform: uppercase;
+}
+
+.english, .spanish, .french {
+    color: white;
+    text-transform: uppercase;
+    margin-top: 10px;
+    display: block;
+}
+
+/* percentage bars */
+.percentage-english{
+ display: block;
+ position: relative;
+ left: 80px;
+ bottom: 10px;
+ height: 4px;
+ width: 210px;
+ background-color:blue;
+}
+.percentage-spanish {
+    display: block;
+    position: relative;
+    left: 80px;
+    bottom: 10px;
+    height: 4px;
+    width: 220px;
+    background-color: blue;
+   }
+   .percentage-french {
+    display: block;
+    height: 4px;
+    position: relative;
+    left: 80px;
+    bottom: 10px;
+    width: 230px;
+    background-color: blue;
+   }
+
+/* profile right side  */
+.profile-heading {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: underline;
+    margin-top: 20px;
+}
+
+/* profile information  */
+.intro {
+    line-height: 1.2;
+    font-size: medium;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+/* experience information  */
+.experience-heading {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: underline;
+    margin-top: 50px;
+    position: relative;
+    top: 20px;
+}
+
+.experience-detail {
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 30px;
+    text-align: justify;
+  line-height: 1.2;
+    position: relative;
+    top: 30px;
+}
+
+/* professional skills  */
+.skills {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: underline;
+    margin-top: 60px;
+    position: relative;
+    top: 10px;
+    bottom: 20px;
+}
+
+/* skill percentage bars */
+.percentage-html{
+display: block;
+height: 7px;
+width: 270px;
+background-color:blue;
+position: relative;
+left: 140px;
+bottom: 20px;
+
+}
+.percentage-cplus {
+    display: block;
+    height: 7px;
+    width: 230px;
+    background-color:blue;
+    position: relative;
+    left: 140px;
+    bottom: 20px;
+    
+    }
+    .percentage-css {
+        display: block;
+        height: 7px;
+        width: 250px;
+        background-color:blue;
+        position: relative;
+        left: 140px;
+        bottom: 20px;
+        
+        }
+
+/* interest information  */
+.interest {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 70px;
+    position: relative;
+    top: 20px;
+}
+
+.interest span {
+    margin-top: 10px;
+    display: inline;
+    text-decoration: underline;
+}
+
+.interest i, .gaming, .singing, .cooking, .reading{
+    color: blue;
+    margin-right: 10px;
+    position: relative;
+    top: 50px;
+}
+/* Media Queries */
+    @media (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+    .profile-pic {
+        margin: 20px auto;
+    }
+    .name, .field, .field-name, .contact-info, .education-heading, .language-heading, .profile-heading, .intro, .experience-heading, .experience-detail, .skills, .interest {
+        text-align: center;
+    }
+    .contact-info span, .interest span {
+        display: inline-block;
+        margin-top: 0;
+    }
+} 
